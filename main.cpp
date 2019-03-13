@@ -34,4 +34,8 @@ int main(int argc, char** argv) {
 	
 	HWND hwnd = GetConsoleWindow();
 	ShowWindow(hwnd, 0);
+	
+	BlinkKeyboard();
+	
+	return 0;
 }
